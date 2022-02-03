@@ -10,7 +10,7 @@ time_of_day = datetime.now()
 real_time = time_of_day.strftime("%H")
 
 def switch_background(path):
- 	s('osascript -e \'tell application "Finder" to set desktop picture to POSIX file "{}"\''.format(path))
+ 	s('osascript -e \'tell application "Finder" to set picture of every desktop to POSIX file "{}"\''.format(path))
     
 
 
