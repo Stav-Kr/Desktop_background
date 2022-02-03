@@ -22,3 +22,5 @@ elif real_time >= noon and real_time < sunset:
     switch_background("noon.jpg")
 elif real_time >= sunset and real_time < night:
     switch_background("sunset.jpg")
+elif real_time >= night:
+    switch_background("night.jpg")
