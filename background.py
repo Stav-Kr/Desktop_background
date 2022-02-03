@@ -15,10 +15,10 @@ def switch_background(path):
 
 
 if real_time > sunrise and real_time < noon:
-    switch_background("/Users/stavros/Documents/GitHub/desktop_bg/Desktop_background/dawn.jpg")
+    switch_background("dawn.jpg")
 elif real_time <= sunrise:
-    switch_background("/Users/stavros/Documents/GitHub/desktop_bg/Desktop_background/night.jpg")
+    switch_background("night.jpg")
 elif real_time >= noon and real_time < sunset:
-    switch_background("/Users/stavros/Documents/GitHub/desktop_bg/Desktop_background/noon.jpg")
+    switch_background("noon.jpg")
 elif real_time >= sunset and real_time < night:
-    switch_background("/Users/stavros/Documents/GitHub/desktop_bg/Desktop_background/sunset.jpg")
+    switch_background("sunset.jpg")
