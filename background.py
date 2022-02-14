@@ -1,6 +1,5 @@
 from os import system as s
 from datetime import datetime
-from unicodedata import name
 
 sunrise = "06"
 noon = "12"
